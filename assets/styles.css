@@ -1,8 +1,22 @@
 /** @format */
 
+@font-face {
+  font-family: vazir;
+  font-weight: 200;
+  src: url(fonts/Vazir.ttf);
+}
+
+@font-face {
+  font-family: vazir;
+  font-weight: 400;
+  src: url(fonts/Vazir-Bold.ttf);
+}
+
 * {
   box-sizing: border-box;
   color: #333;
+  font-family: vazir;
+  font-weight: 200;
 }
 
 body {
@@ -32,7 +46,7 @@ a {
 
 .header {
   width: 100%;
-  height: 65px;
+  height: 75px;
   background-color: #fff;
   box-shadow: 0px 1px 2px #bbb;
 }
@@ -94,6 +108,7 @@ a {
 .page-intro-right h1 {
   color: #fff;
   font-size: 70px;
+  font-weight: 400;
 }
 
 .page-intro-right-btns {
@@ -105,7 +120,7 @@ a {
   color: #fff;
   background-color: transparent;
   border: 2px solid #fff;
-  width: 120px;
+  width: auto;
   padding: 10px;
   font-size: 20px;
   border-radius: 5px;
